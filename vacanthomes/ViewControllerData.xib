@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerData">
+            <connections>
+                <outlet property="aboutYou" destination="f0l-Dg-2vv" id="VC3-wz-rlq"/>
+                <outlet property="accessToProperty" destination="TCY-il-iwO" id="9iz-xw-pvg"/>
+                <outlet property="contentview" destination="FZB-dk-EKM" id="EsN-5O-4ri"/>
+                <outlet property="county" destination="GMU-dQ-fhO" id="Xg9-jS-K29"/>
+                <outlet property="eircode" destination="f6R-68-Hon" id="5jz-9K-QWH"/>
+                <outlet property="geoLocationLbl" destination="NC0-OG-aXE" id="Ynr-Xu-yYc"/>
+                <outlet property="grassOvergrown" destination="z06-po-GQ7" id="zOO-0E-ehW"/>
+                <outlet property="houseno" destination="QN1-Pk-Q5B" id="Owa-0K-5A7"/>
+                <outlet property="howLongVacant" destination="8jy-tL-2tI" id="2ZE-Jn-RSV"/>
+                <outlet property="imageView" destination="Guk-js-TgY" id="skH-dr-m4P"/>
+                <outlet property="message" destination="j46-cA-WBm" id="a6X-nx-tCT"/>
+                <outlet property="paintPeeling" destination="lNX-AR-ASn" id="nbZ-N8-HfK"/>
+                <outlet property="propertyActivity" destination="bb1-DV-PyA" id="yxj-c7-P05"/>
+                <outlet property="propertyType" destination="oWF-6d-PIg" id="HXt-pe-Zpw"/>
+                <outlet property="roofDamaged" destination="Orz-NB-PMZ" id="tAR-Wl-gHj"/>
+                <outlet property="saleRentSign" destination="TP1-Qc-UGV" id="YRR-Xx-W6s"/>
+                <outlet property="scrollview" destination="2ef-vj-UPF" id="S1x-Jc-O7s"/>
+                <outlet property="streetname" destination="2yX-ju-HhN" id="6rc-U6-8Re"/>
+                <outlet property="tandc" destination="4fQ-Ea-Czm" id="6gJ-OB-r2h"/>
+                <outlet property="townname" destination="rmh-f7-STw" id="jRh-ie-7Iy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="e0u-B2-gNd"/>
+                <outlet property="wasteBins" destination="SdI-Oe-Aq4" id="e8k-2Z-lLq"/>
+                <outlet property="windowsBoarded" destination="587-SK-8aF" id="Z5s-eQ-cTT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ef-vj-UPF">
+                    <rect key="frame" x="0.0" y="92" width="375" height="575"/>
+                    <subviews>
+                        <view autoresizesSubviews="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FZB-dk-EKM">
+                            <rect key="frame" x="27.5" y="0.0" width="320" height="577"/>
+                            <subviews>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TP1-Qc-UGV">
+                                    <rect key="frame" x="250" y="1272" width="51" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the grass around the property overgrown?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXA-Xw-yjz">
+                                    <rect key="frame" x="10" y="1325" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z06-po-GQ7">
+                                    <rect key="frame" x="250" y="1339" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Does the roof look damaged?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hj-Lu-gnO">
+                                    <rect key="frame" x="10" y="1392" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Orz-NB-PMZ">
+                                    <rect key="frame" x="250" y="1406" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are any of the windows boarded over?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmD-zu-iQr">
+                                    <rect key="frame" x="10" y="1459" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="587-SK-8aF">
+                                    <rect key="frame" x="250" y="1473" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the paint on the property visibly peeling?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObM-4y-wNa">
+                                    <rect key="frame" x="10" y="1526" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lNX-AR-ASn">
+                                    <rect key="frame" x="250" y="1540" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Does there appear to be activity around the property?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esw-k6-8n5">
+                                    <rect key="frame" x="10" y="1593" width="215" height="62"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bb1-DV-PyA">
+                                    <rect key="frame" x="250" y="1607" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are there waste bins on the grounds?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYU-hv-nQv">
+                                    <rect key="frame" x="10" y="1660" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SdI-Oe-Aq4">
+                                    <rect key="frame" x="250" y="1674" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you know / have access to the owner of the property?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-ba-DX9">
+                                    <rect key="frame" x="10" y="1727" width="215" height="88"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TCY-il-iwO">
+                                    <rect key="frame" x="250" y="1741" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About You?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKn-MG-HJz">
+                                    <rect key="frame" x="10" y="1823" width="215" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0l-Dg-2vv">
+                                    <rect key="frame" x="0.0" y="1853" width="320" height="162"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </pickerView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you accept the terms and conditions?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbR-EG-AJi">
+                                    <rect key="frame" x="10" y="2406" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4fQ-Ea-Czm">
+                                    <rect key="frame" x="250" y="2420" width="49" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </switch>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jH-QG-CqY">
+                                    <rect key="frame" x="10" y="2510" width="300" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <state key="normal" title="SUBMIT" backgroundImage="bluebutton.png"/>
+                                    <connections>
+                                        <action selector="postData:" destination="-1" eventType="touchUpInside" id="GSd-S2-cGZ"/>
+                                    </connections>
+                                </button>
+                                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMU-dQ-fhO">
+                                    <rect key="frame" x="0.0" y="374" width="320" height="162"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </pickerView>
+                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Street name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2yX-ju-HhN">
+                                    <rect key="frame" x="10" y="265" width="300" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="Fo8-hK-SXx"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Town name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rmh-f7-STw">
+                                    <rect key="frame" x="10.5" y="323" width="300" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="UwJ-Al-mKs"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzR-ur-dsi">
+                                    <rect key="frame" x="10" y="679" width="300" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <state key="normal" title="GET CURRENT LOCATION" backgroundImage="bluebutton.png"/>
+                                    <connections>
+                                        <action selector="getLocation:" destination="-1" eventType="touchUpInside" id="esR-L2-sba"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Guk-js-TgY">
+                                    <rect key="frame" x="10" y="752" width="300" height="183"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOQ-Lp-bJv">
+                                    <rect key="frame" x="10" y="955" width="140" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <state key="normal" title="TAKE PHOTO" backgroundImage="bluebutton.png"/>
+                                    <connections>
+                                        <action selector="takePhoto:" destination="-1" eventType="touchUpInside" id="mbB-4N-b2J"/>
+                                    </connections>
+                                </button>
+                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="House No" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QN1-Pk-Q5B">
+                                    <rect key="frame" x="10" y="201" width="300" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="Cym-X2-vDT"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8jy-tL-2tI">
+                                    <rect key="frame" x="0.0" y="1027" width="320" height="162"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </pickerView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Questions about this property" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afX-4c-sim">
+                                    <rect key="frame" x="10" y="1218" width="300" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oWF-6d-PIg">
+                                    <rect key="frame" x="0.0" y="17" width="320" height="161"/>
+                                </pickerView>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eircode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f6R-68-Hon">
+                                    <rect key="frame" x="10" y="565" width="300" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Message" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j46-cA-WBm">
+                                    <rect key="frame" x="10" y="2010" width="300" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is there a for sale / rent sign on the property?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIK-oI-5qA">
+                                    <rect key="frame" x="10" y="1256" width="215" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC0-OG-aXE">
+                                    <rect key="frame" x="10" y="613" width="300" height="55"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rq-Pj-DFE">
+                                    <rect key="frame" x="170" y="955" width="140" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <state key="normal" title="LIBRARY" backgroundImage="bluebutton.png"/>
+                                    <connections>
+                                        <action selector="selectPhoto:" destination="-1" eventType="touchUpInside" id="TJD-UU-rCd"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="rmh-f7-STw" firstAttribute="top" secondItem="2yX-ju-HhN" secondAttribute="bottom" constant="300" id="1qi-0i-aeM"/>
+                                <constraint firstItem="rmh-f7-STw" firstAttribute="centerX" secondItem="Nl7-yF-W1j" secondAttribute="centerX" id="45k-Qe-qNx"/>
+                                <constraint firstAttribute="width" constant="320" id="94H-GJ-nUh"/>
+                                <constraint firstItem="QN1-Pk-Q5B" firstAttribute="centerX" secondItem="Nl7-yF-W1j" secondAttribute="centerX" id="Abt-eg-fis"/>
+                                <constraint firstItem="QN1-Pk-Q5B" firstAttribute="top" secondItem="oWF-6d-PIg" secondAttribute="bottom" constant="10" id="Cx1-Iw-QEs"/>
+                                <constraint firstItem="2yX-ju-HhN" firstAttribute="top" secondItem="QN1-Pk-Q5B" secondAttribute="bottom" constant="20" id="IV3-7N-mmP"/>
+                                <constraint firstItem="QN1-Pk-Q5B" firstAttribute="centerX" secondItem="Nl7-yF-W1j" secondAttribute="centerX" id="LBv-vW-riL"/>
+                                <constraint firstItem="oWF-6d-PIg" firstAttribute="centerX" secondItem="Nl7-yF-W1j" secondAttribute="centerX" id="POq-hp-nmY"/>
+                                <constraint firstItem="2yX-ju-HhN" firstAttribute="centerX" secondItem="Nl7-yF-W1j" secondAttribute="centerX" id="hWC-JL-Ksn"/>
+                                <constraint firstItem="rmh-f7-STw" firstAttribute="top" secondItem="2yX-ju-HhN" secondAttribute="bottom" constant="15" id="npV-Sw-d6Y"/>
+                                <constraint firstItem="oWF-6d-PIg" firstAttribute="top" secondItem="Nl7-yF-W1j" secondAttribute="top" constant="37" id="o1e-x3-qR2"/>
+                                <constraint firstAttribute="height" constant="2753" id="xeP-Fv-3ea"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="Nl7-yF-W1j"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FZB-dk-EKM" firstAttribute="centerX" secondItem="232-Fn-MM1" secondAttribute="centerX" id="oNH-6G-KUp"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="232-Fn-MM1"/>
+                </scrollView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tX2-MY-m1l">
+                    <rect key="frame" x="0.0" y="46" width="375" height="44"/>
+                    <color key="barTintColor" red="0.53124314549999996" green="0.75899857280000005" blue="0.2782924175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Vacant Homes" id="lmv-sj-XcE">
+                            <barButtonItem key="leftBarButtonItem" title="back" id="bdI-zP-YlT">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="Back" destination="-1" id="HId-n8-6gr"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tX2-MY-m1l" firstAttribute="trailing" secondItem="2ef-vj-UPF" secondAttribute="trailing" id="Bcv-ct-Vt8"/>
+                <constraint firstItem="2ef-vj-UPF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Cws-xd-y1I"/>
+                <constraint firstItem="2ef-vj-UPF" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="O2a-3g-Ftj"/>
+                <constraint firstItem="tX2-MY-m1l" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="26" id="XQm-Sf-CP1"/>
+                <constraint firstItem="2ef-vj-UPF" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="m1q-qG-CTO"/>
+                <constraint firstItem="tX2-MY-m1l" firstAttribute="leading" secondItem="2ef-vj-UPF" secondAttribute="leading" id="sw5-4a-mgv"/>
+                <constraint firstItem="2ef-vj-UPF" firstAttribute="top" secondItem="tX2-MY-m1l" secondAttribute="bottom" id="ycj-Ib-4NE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bluebutton.png" width="320" height="50"/>
+    </resources>
+</document>

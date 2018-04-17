@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="thanks" destination="UGh-9I-xua" id="WBM-zl-rHd"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ZEc-1D-ALt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="00i-JT-EpQ">
+                    <rect key="frame" x="37" y="100" width="300" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="hI4-Sd-dEE"/>
+                        <constraint firstAttribute="height" constant="54" id="vbF-go-slU"/>
+                    </constraints>
+                </imageView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fR-yL-ov4">
+                    <rect key="frame" x="0.0" y="26" width="375" height="44"/>
+                    <color key="barTintColor" red="0.53124314546585083" green="0.7589985728263855" blue="0.27829241752624512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                    </textAttributes>
+                    <textAttributes key="largeTitleTextAttributes">
+                        <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Vacant Homes" id="j6H-4p-IW2"/>
+                    </items>
+                </navigationBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codeforireland.png" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-Co-kH5">
+                    <rect key="frame" x="115" y="431" width="144" height="77"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="mKV-1Z-PxX"/>
+                        <constraint firstAttribute="height" constant="77" id="veo-Py-MMp"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8n-wR-vUW">
+                    <rect key="frame" x="37" y="333" width="300" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="rF5-gs-Y46"/>
+                    </constraints>
+                    <state key="normal" title="LOG A VACANT PROPERTY" backgroundImage="bluebutton.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="launchPressed:" destination="-2" eventType="touchUpInside" id="Zdq-dx-t8Y"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank You for submitting this information, from the vacant homes team and Code For Ireland" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGh-9I-xua">
+                    <rect key="frame" x="37" y="211" width="300" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tLA-Co-kH5" firstAttribute="top" secondItem="H8n-wR-vUW" secondAttribute="bottom" constant="48" id="4dK-gj-QGY"/>
+                <constraint firstItem="H8n-wR-vUW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Of2-Sd-ZrS"/>
+                <constraint firstItem="0fR-yL-ov4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="QkK-Js-ifb"/>
+                <constraint firstAttribute="trailing" secondItem="0fR-yL-ov4" secondAttribute="trailing" id="Z2R-tE-o76"/>
+                <constraint firstItem="00i-JT-EpQ" firstAttribute="top" secondItem="0fR-yL-ov4" secondAttribute="bottom" constant="30" id="Z6F-z3-LIe"/>
+                <constraint firstItem="tLA-Co-kH5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ce0-L9-11h"/>
+                <constraint firstItem="0fR-yL-ov4" firstAttribute="centerX" secondItem="00i-JT-EpQ" secondAttribute="centerX" id="gLD-Gb-YaE"/>
+                <constraint firstItem="H8n-wR-vUW" firstAttribute="top" secondItem="00i-JT-EpQ" secondAttribute="bottom" constant="179" id="mKu-5I-Rqk"/>
+                <constraint firstItem="00i-JT-EpQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xy6-SK-Cdo"/>
+                <constraint firstItem="0fR-yL-ov4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zKm-ru-Z5E"/>
+            </constraints>
+            <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bluebutton.png" width="320" height="50"/>
+        <image name="codeforireland.png" width="100" height="53"/>
+        <image name="logo1.png" width="1024" height="192"/>
+    </resources>
+</document>
